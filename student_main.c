@@ -39,7 +39,10 @@ int main() {
     }
     
     for(i = 0; i < count; i++) {
-        printf("%d ", intersection[i]);
+        printf("%d", intersection[i]);
+        if (i < count - 1) {
+            printf(" ");
+        }
     }
     printf("\n");
 
